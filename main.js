@@ -4,7 +4,7 @@ require.config({
         "text": "lib/text",
     }
 })
-require(['text!city.html'], function(city) {
+require(['text!city_list.html'], function(city) {
     //console.log(city);
     let element = document.querySelector('.header')
     console.log(element);
